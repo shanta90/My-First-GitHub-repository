@@ -1,10 +1,36 @@
-# 1. one time for each project to start git
-git init
-# 2. every time add
-git add .
-
-# 3. every time you commit
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/shanta90/My-First-GitHub-repository.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>external css</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <div class="blog">
+    <h2>My First Blog</h2>
+    <p>Welcome to my travel blog. Here I share my experiences from around the world.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque tempora earum distinctio excepturi ad quaerat accusamus culpa natus aut, eveniet, rerum non!</p>
+    </div>
+    <div id="second-blog" class="blog">
+    <h2>My Second Blog</h2>
+    <p>Welcome to my travel blog. Here I share my experiences from around the world.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque tempora earum distinctio excepturi ad quaerat accusamus culpa natus aut, eveniet, rerum non!</p>
+    </div>
+    <div class="blog">
+    <h2>My Third Blog</h2>
+    <p>Welcome to my travel blog. Here I share my experiences from around the world.</p>
+    <p>Lorem ipsum dolor <span id="minimalist">sit amet consectetur</span> adipisicing elit. Quisquam atque tempora earum distinctio excepturi ad quaerat accusamus culpa natus aut, eveniet, rerum non!</p>
+    </div>
+    <div class="blog">
+    <h2>My Fourth Blog</h2>
+    <p>Welcome to my travel blog. Here I share my experiences from around the world.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque tempora earum distinctio excepturi ad quaerat accusamus culpa natus aut, eveniet, rerum non!</p>
+    </div>
+    <div class="blog">
+    <h2>My Fourth Blog</h2>
+    <p>Welcome to my travel blog. Here I share my experiences from around the world.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque tempora earum distinctio excepturi ad quaerat accusamus culpa natus aut, eveniet, rerum non!</p>
+    </div>    
+</body>
+</html>
