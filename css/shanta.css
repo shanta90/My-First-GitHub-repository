@@ -1,0 +1,29 @@
+.blog {
+    background-color: #70a4d2;
+    border: 40px solid #14755c;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    width:600px;
+    box-shadow: -30px 30px 0px 0px #d21447;
+}
+.article {
+    color: #d21447;
+    font-family: 'Arial Black', sans-serif;
+    text-align: center;
+    
+}
+.header {
+    background-color: #14755c;
+    color: #9f2121;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Verdana', sans-serif;
+    border: 40px solid #d21447;
+    margin: 30px;
+    height: 1500px;
+    background-image: url('shanta.jpg.jpg');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: left-center;
+}
