@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layoutt</title>
+    <style>
+        .item {
+            border: 1px solid tomato;
+            justify-self: stretch;
+            align-items: center;
+            justify-items: center;
+            color: #000;
+            background-color: antiquewhite;
+           
+
+        }
+        .container {
+            display: grid;
+             /* grid-template-columns: 200px 200px 100px 100px; */
+             /* grid-template-columns: repeat(3, 200px) 100px 150px; */
+             /* grid-template-columns: repeat(4, 1fr); */
+             grid-template-columns: 250px 200px;
+             justify-content: center;
+             column-gap: 30px;
+             row-gap: 30px;
+             border: 2px solid peachpuff;
+             border-radius: 4px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Explore Grid Layout:2D layout</h1>
+    <div class="container">
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+        <div class="item">item - </div>
+
+    </div>
+
+    
+</body>
+</html>
