@@ -10,12 +10,49 @@
         color: rgb(10, 10, 10);
         
       }
+      nav {
+        display: flex;
+        justify-content: space-between;
+
+      }
+      .login-form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        /* border: 2px solid purple; */
+        justify-content: center;
+      }
+      .login-form input {
+        margin-top: 20px;
+        border: 2px solid tomato;
+        border-radius: 4px;
+      }
+      .login-form-container {
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid maroon; */
+        align-items: center;
+        height: 80vh;
+      }
     </style>
 </head>
 <body>
     <nav>
-       <a href="">Home</a><a href="">Profile</a><a href="">Blog</a><a href="">About</a><a href="">Login</a>
+      <div> <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+    </div>
+      <a href="">Login</a>
     </nav>
+    <section class="login-form-container">
+    <form class="login-form" >
+        <h3>please fillup the form</h3>
+        <input type="E-mail" name="" id="" placeholder="Your E-mail" required>
+        <input type="password" name="" id="" placeholder="password" required>
+         <input type="submit" value="login">
+        </section>
+    </form>
     
 </body>
 </html>
